@@ -17,7 +17,8 @@
           content has hazard(s), include positive assertions for the hazards it has and negative assertions
           for the others. If the property is not set in the positive or negative, the state of hazards is
           not known."""@en, "Die negativen Werte sollten eingestellt werden, wenn keine der Gefahren bekannt sind. Wenn der Inhalt eine oder mehrere Gefährdungen aufweist, sind positive Werte für die vorhandenen Gefährdungen und negative Werte für die anderen zu verwenden. Wenn die Eigenschaft weder positiv noch negativ gesetzt ist, ist der Zustand der Gefährdungen nicht bekannt."@de ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/>;
+    skos:hasTopConcept <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing>, <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noFlashingHazard>, <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/motionSimulation>, <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noMotionSimulationHazard>, <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/sound>, <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noSoundHazard> .
 
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing> a skos:Concept ;

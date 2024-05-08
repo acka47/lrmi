@@ -18,7 +18,8 @@ resourceType: a skos:ConceptScheme ;
     vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
     dc:description "A concept scheme that enumerates different types of learning resource. By learning resource we mean a persistent resource that has one or more physical or digital representation, and that explicitly involves, specifies or entails a learning activity or learning experience."@en-US, "Ein kontrolliertes Vokabular, das verschiedene Arten von Lernressourcen bezeichnet. Eine solche Ressource hat ein oder mehrere physische oder digitiale Repräsentationen und beinhaltet, spezifiziert oder bedingt eine Lernaktivität or Lernerfahrung."@de ;
     dc:source <https://ceds.ed.gov/element/000928> ;
-    adms:status bibo:published .
+    adms:status bibo:published ;
+    skos:hasTopConcept resourceType:activityPlan, resourceType:assessment, resourceType:assessmentItem, resourceType:educatorCurriculumGuide, resourceType:lessonPlan, resourceType:physicalLearningResource, resourceType:recordedLesson, resourceType:supportingDocument, resourceType:textbook, resourceType:unitPlan .
 
 resourceType:activityPlan a skos:Concept ;
     skos:prefLabel "activity plan"@en-US, "Aktivitätenplan"@de ;

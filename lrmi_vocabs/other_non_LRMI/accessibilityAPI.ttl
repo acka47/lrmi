@@ -13,7 +13,8 @@
     dc:title "Accessibility API"@en, "Barrierefreiheit-API"@de ;
     dcterms:description "Indicates that the resource is compatible with the referenced accessibility API."@en, "Zeigt an, dass die Ressource mit der angegebenen Barrierefreiheit-API kompatibel ist."@de ;
     dcterms:publisher "@@@"@en ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AndroidAccessibility>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ARIA>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ATK>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AT-SPI>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/BlackberryAccessibility>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iAccessible2>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/JavaAccessibility>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MacOSXAccessibility>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MSAA>, <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/UIAutomation> .
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AndroidAccessibility> a skos:Concept ;
     skos:prefLabel "Android Accessibility"@en, "Android Accessibility"@de ;

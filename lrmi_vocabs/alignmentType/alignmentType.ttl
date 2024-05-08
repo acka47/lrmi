@@ -16,7 +16,8 @@ alignment: a skos:ConceptScheme ;
     dct:created "2017-03-01"^^xsd:date ;
     dct:modified "2022-10-18"^^xsd:date ;
     vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
-    dct:license <http://creativecommons.org/licenses/by/4.0/> .
+    dct:license <http://creativecommons.org/licenses/by/4.0/>  ;
+    skos:hasTopConcept alignment:assesses, alignment:complexityLevel, alignment:educationalLevel, alignment:educationalSubject, alignment:prerequisite, alignment:readingLevel, alignment:teaches .
 
 alignment:assesses a skos:Concept ;
     skos:prefLabel "assesses"@en-US, "testet"@de ;

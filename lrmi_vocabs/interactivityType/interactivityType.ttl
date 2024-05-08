@@ -20,7 +20,8 @@ interact: a skos:ConceptScheme ;
     dct:created "2017-03-01"^^xsd:date ;
     dct:modified "2022-10-18"^^xsd:date ;
     vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
-    dct:license <http://creativecommons.org/licenses/by/4.0/> .
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept interact:active, interact:expositive, interact:mixed .
 
 interact:active a skos:Concept ;
     skos:prefLabel "active"@en-US, "aktiv (eher selbstgesteuert)"@de ;

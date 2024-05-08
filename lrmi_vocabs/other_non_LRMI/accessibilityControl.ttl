@@ -14,7 +14,8 @@
     dc:title "Accessibility Control"@en, "Barrierefreie Steuerung"@de ;
     dcterms:description "The Accessibility Control vocabulary identifies one or more input methods that allow access to all of the application functionality."@en, "Das Vokabular zur barrierenfreien Steuerung bestimmt eine oder mehrere Eingabemethoden, die den Zugang zu allen Funktionen der Anwendung ermöglichen."@de ;
     dcterms:publisher "@@@"@en ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl>, <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullMouseControl>, <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullSwitchControl>, <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullTouchControl>, <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVideoControl>, <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVoiceControl> .
 
 <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl> a skos:Concept ;
     skos:prefLabel "Full Keyboard Control"@en, "Vollständige Tastatursteuerung"@de ;

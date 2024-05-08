@@ -16,7 +16,8 @@ audRole: a skos:ConceptScheme;
   dct:created "2017-03-01"^^xsd:date ;
   dct:modified "2022-10-18"^^xsd:date ;
   vann:changes "https://www.dublincore.org/specifications/lrmi/concept_schemes/release-history/" ;
-  dct:license <http://creativecommons.org/licenses/by/4.0/> .
+  dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+  skos:hasTopConcept audRole:administrator, audRole:generalPublic, audRole:mentor, audRole:parent, audRole:peerTutor, audRole:professional, audRole:student, audRole:teacher .
 
 audRole:administrator a skos:Concept;
   skos:prefLabel "administrator"@en-US, "Verwaltung"@de;
