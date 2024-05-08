@@ -11,7 +11,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 resourceType: a skos:ConceptScheme ;
-    dc:title "LRMI Learning Resource Type Concept Scheme"@en-US, "LRMI Lernressourcentyp Vokabular"@de ;
+    dc:title "LRMI Learning Resource Type Concept Scheme"@en-US, "LRMI Lernressourcentyp-Vokabular"@de ;
     dc:creator "LRMI Task Group (DCMI)"@en-US, "LRMI Task Group (DCMI)"@de ;
     dcterms:created "2022-04-05"^^xsd:date ;
     dcterms:modified "2022-10-18"^^xsd:date ;
